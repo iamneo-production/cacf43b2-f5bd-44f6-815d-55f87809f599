@@ -1,0 +1,22 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: ARTICLE-SERVICE
+          uri: lb://ARTICLE-SERVICE
+          predicates:
+            - Path=/api/article/**
+
+        - id: VERSION-TRACKING-SERVICE
+          uri: lb://VERSION-TRACKING-SERVICE
+          predicates:
+            - Path=/api/version**
