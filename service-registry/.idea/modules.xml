@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/../api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-registry.iml" filepath="$PROJECT_DIR$/service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../version-control-service/version-control-service.iml" filepath="$PROJECT_DIR$/../version-control-service/version-control-service.iml" />
+    </modules>
+  </component>
+</project>
